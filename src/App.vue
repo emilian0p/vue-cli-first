@@ -1,20 +1,21 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <TitleContent msg=""/>
-    <HeroJumbo msg=""/>
+    <TitleMain msg=""/>
+    <JumboTron msg=""/>
   </div>
 </template>
 
 <script>
-import TitleContent from './components/TitleContent.vue'
-import HeroJumbo from './components/HeroJumbo.vue'
+
+import TitleMain from './components/TitleMain.vue';
+import JumboTron from './components/JumboTron.vue';
 
 export default {
   name: 'App',
   components: {
-    TitleContent,
-    HeroJumbo
+    TitleMain,
+    JumboTron
   }
 }
 </script>
